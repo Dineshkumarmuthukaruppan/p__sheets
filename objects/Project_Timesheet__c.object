@@ -267,10 +267,10 @@
         <fullName>Project_Stage__c</fullName>
         <externalId>false</externalId>
         <label>Project Stage</label>
-        <valueet>
+        <valueSet>
             <controllingField>false</controllingField>
             <restricted>false</restricted>
-            <valueetDefinition >
+            <valueSetDefinition >
                 <sorted>false</sorted>
                 <value>
                      <fullName>Kick-Off</fullName>
@@ -314,10 +314,10 @@
         <externalId>false</externalId>
         <inlineHelpText>Scheduled implies work has not started yet.</inlineHelpText>
         <label>Status</label>
-        <valueet>
+        <valueSet>
             <controllingField>false</controllingField>
             <restricted>false</restricted>
-            <valueetDefinition >
+            <valueSetDefinition >
                 <sorted>false</sorted>
                <value>
                 <fullName>Complete</fullName>
@@ -331,8 +331,8 @@
         </picklist>
         <trackTrending>false</trackTrending>
                 <!-- ... other picklist value ... -->
-            </valueetDefinition >
-        </valueet>
+            </valueSetDefinition >
+        </valueSet>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
