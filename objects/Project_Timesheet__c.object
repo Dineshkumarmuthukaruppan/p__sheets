@@ -133,10 +133,10 @@
         <fullName>Description__c</fullName>
         <externalId>false</externalId>
         <label>Description</label>
-        <valueet>
+        <valueset>
             <controllingField>false</controllingField>
             <restricted>false</restricted>
-            <valueetDefinition>
+            <valuesetDefinition>
                 <sorted>false</sorted>
                 <value>
                    <fullName>Presales</fullName>
