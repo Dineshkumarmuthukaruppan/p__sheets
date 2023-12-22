@@ -133,10 +133,10 @@
         <fullName>Description__c</fullName>
         <externalId>false</externalId>
         <label>Description</label>
-        <valueSet>
+        <valueet>
             <controllingField>false</controllingField>
             <restricted>false</restricted>
-            <valueSetDefinition>
+            <valueetDefinition>
                 <sorted>false</sorted>
                 <value>
                    <fullName>Presales</fullName>
@@ -175,8 +175,8 @@
                 <fullName>Prep</fullName>
                 <default>false</default>
             </value>
-            </valueSetDefinition>
-        </valueSet>
+            </valueetDefinition>
+        </valueet>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
@@ -267,10 +267,10 @@
         <fullName>Project_Stage__c</fullName>
         <externalId>false</externalId>
         <label>Project Stage</label>
-        <valueSet>
+        <valueet>
             <controllingField>false</controllingField>
             <restricted>false</restricted>
-            <valueSetDefinition >
+            <valueetDefinition >
                 <sorted>false</sorted>
                 <value>
                      <fullName>Kick-Off</fullName>
@@ -288,24 +288,24 @@
                    <fullName>Testing</fullName>
                    <default>false</default>
                 </value>
-            <values>
+            <value>
                 <fullName>Training</fullName>
                 <default>false</default>
-            </values>
-            <values>
+            </value>
+            <value>
                 <fullName>Deployment</fullName>
                 <default>false</default>
-            </values>
-            <values>
+            </value>
+            <value>
                 <fullName>Support</fullName>
                 <default>false</default>
-            </values>
-            <values>
+            </value>
+            <value>
                 <fullName>Project Mangement</fullName>
                 <default>false</default>
-            </values>
-            </valueSetDefinition >
-        </valueSet>
+            </value>
+            </valueetDefinition >
+        </valueet>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
@@ -314,10 +314,10 @@
         <externalId>false</externalId>
         <inlineHelpText>Scheduled implies work has not started yet.</inlineHelpText>
         <label>Status</label>
-        <valueSet>
+        <valueet>
             <controllingField>false</controllingField>
             <restricted>false</restricted>
-            <valueSetDefinition >
+            <valueetDefinition >
                 <sorted>false</sorted>
                <value>
                 <fullName>Complete</fullName>
@@ -330,9 +330,9 @@
             <sorted>false</sorted>
         </picklist>
         <trackTrending>false</trackTrending>
-                <!-- ... other picklist values ... -->
-            </valueSetDefinition >
-        </valueSet>
+                <!-- ... other picklist value ... -->
+            </valueetDefinition >
+        </valueet>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
