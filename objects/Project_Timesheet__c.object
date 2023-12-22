@@ -175,8 +175,8 @@
                 <fullName>Prep</fullName>
                 <default>false</default>
             </value>
-            </valueetDefinition>
-        </valueet>
+            </valueSetDefinition>
+        </valueSet>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
