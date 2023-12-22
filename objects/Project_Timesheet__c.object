@@ -142,11 +142,8 @@
                    <fullName>Presales</fullName>
                 <default>false</default>
                 </value>
-                <value>
-                    <fullName>Analysis</fullName>
-                    <default>false</default>
-                </value>
-<value>
+                
+            <value>
                 <fullName>Analysis</fullName>
                 <default>false</default>
             </value>
@@ -174,22 +171,11 @@
                 <fullName>Project Management</fullName>
                 <default>false</default>
             </value>
-                <!-- ... other picklist values ... -->
+                 <value>
+                <fullName>Prep</fullName>
+                <default>false</default>
+            </value>
             </valueSetDefinition>
-            <!-- Use the correct element name 'valueSetDefinition' -->
-            <valueSettings>
-                <controllingFieldValue/>
-                <valueName>
-                    <fullName>Presales</fullName>
-                </valueName>
-            </valueSettings>
-            <valueSettings>
-                <controllingFieldValue/>
-                <valueName>
-                    <fullName>Analysis</fullName>
-                </valueName>
-            </valueSettings>
-            <!-- ... other valueSettings ... -->
         </valueSet>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
