@@ -133,45 +133,64 @@
         <fullName>Description__c</fullName>
         <externalId>false</externalId>
         <label>Description</label>
-        <picklist>
-            <picklistValues>
-                <fullName>Presales</fullName>
+        <valueSet>
+            <controllingField>false</controllingField>
+            <restricted>false</restricted>
+            <ValueSetValuesDefinition>
+                <sorted>false</sorted>
+                <value>
+                   <fullName>Presales</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
+                </value>
+                <value>
+                    <fullName>Analysis</fullName>
+                    <default>false</default>
+                </value>
+<value>
                 <fullName>Analysis</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
+            </value>
+            <value>
                 <fullName>Consultancy - Admin</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
+            </value>
+            <value>
                 <fullName>Consultancy - Development</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
+            </value>
+            <value>
                 <fullName>Training</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
+            </value>
+            <value>
                 <fullName>Support</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
+            </value>
+            <value>
                 <fullName>Data Import</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
+            </value>
+            <value>
                 <fullName>Project Management</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Prep</fullName>
-                <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
+            </value>
+                <!-- ... other picklist values ... -->
+            </ValueSetValuesDefinition>
+            <!-- Use the correct element name 'ValueSetValuesDefinition' -->
+            <valueSettings>
+                <controllingFieldValue/>
+                <valueName>
+                    <fullName>Presales</fullName>
+                </valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue/>
+                <valueName>
+                    <fullName>Analysis</fullName>
+                </valueName>
+            </valueSettings>
+            <!-- ... other valueSettings ... -->
+        </valueSet>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
