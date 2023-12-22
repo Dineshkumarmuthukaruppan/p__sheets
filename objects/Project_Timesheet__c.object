@@ -136,7 +136,7 @@
         <valueSet>
             <controllingField>false</controllingField>
             <restricted>false</restricted>
-            <ValueSetValuesDefinition>
+            <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
                    <fullName>Presales</fullName>
@@ -175,8 +175,8 @@
                 <default>false</default>
             </value>
                 <!-- ... other picklist values ... -->
-            </ValueSetValuesDefinition>
-            <!-- Use the correct element name 'ValueSetValuesDefinition' -->
+            </valueSetDefinition>
+            <!-- Use the correct element name 'valueSetDefinition' -->
             <valueSettings>
                 <controllingFieldValue/>
                 <valueName>
@@ -284,7 +284,7 @@
         <valueSet>
             <controllingField>false</controllingField>
             <restricted>false</restricted>
-            <ValueSetValuesDefinition >
+            <valueSetDefinition >
                 <sorted>false</sorted>
                 <value>
                      <fullName>Kick-Off</fullName>
@@ -318,7 +318,7 @@
                 <fullName>Project Mangement</fullName>
                 <default>false</default>
             </values>
-            </ValueSetValuesDefinition >
+            </valueSetDefinition >
         </valueSet>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -331,7 +331,7 @@
         <valueSet>
             <controllingField>false</controllingField>
             <restricted>false</restricted>
-            <ValueSetValuesDefinition >
+            <valueSetDefinition >
                 <sorted>false</sorted>
                <value>
                 <fullName>Complete</fullName>
@@ -345,7 +345,7 @@
         </picklist>
         <trackTrending>false</trackTrending>
                 <!-- ... other picklist values ... -->
-            </ValueSetValuesDefinition >
+            </valueSetDefinition >
         </valueSet>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
