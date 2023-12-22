@@ -45,8 +45,8 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
-<compactLayouts>
+    <compactLayoutAssignment>SF1_Layout</compactLayoutAssignment>
+    <compactLayouts>
         <fullName>SF1_Layout</fullName>
         <fields>Consultant_Name__c</fields>
         <fields>P_Opportunity_Name__c</fields>
@@ -57,7 +57,7 @@
         <label>SF1 Layout</label>
     </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Tracks project status info.</description>
+    <description>Tracks project status info</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableEnhancedLookup>true</enableEnhancedLookup>
@@ -66,7 +66,7 @@
     <enableReports>true</enableReports>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-     <fields>
+    <fields>
         <fullName>Billable__c</fullName>
         <defaultValue>true</defaultValue>
         <externalId>false</externalId>
@@ -130,7 +130,7 @@
         <type>Date</type>
     </fields>
     <fields>
-<fullName>Description__c</fullName>
+        <fullName>Description__c</fullName>
         <externalId>false</externalId>
         <label>Description</label>
         <picklist>
@@ -262,60 +262,72 @@
         <fullName>Project_Stage__c</fullName>
         <externalId>false</externalId>
         <label>Project Stage</label>
-        <picklist>
-            <picklistValues>
-                <fullName>Kick-Off</fullName>
+        <valueSet>
+            <controllingField>false</controllingField>
+            <restricted>false</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                     <fullName>Kick-Off</fullName>
+                    <default>false</default>
+                </value>
+                <value>
+                   <fullName>Analysis &amp; Design</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Analysis &amp; Design</fullName>
+                </value>
+               <value>
+                   <fullName>Build</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Build</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
-                <fullName>Testing</fullName>
-                <default>false</default>
-            </picklistValues>
-            <picklistValues>
+                </value>
+                 <value>
+                   <fullName>Testing</fullName>
+                   <default>false</default>
+                </value>
+            <values>
                 <fullName>Training</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
+            </values>
+            <values>
                 <fullName>Deployment</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
+            </values>
+            <values>
                 <fullName>Support</fullName>
                 <default>false</default>
-            </picklistValues>
-            <picklistValues>
+            </values>
+            <values>
                 <fullName>Project Mangement</fullName>
                 <default>false</default>
-            </picklistValues>
-            <sorted>false</sorted>
-        </picklist>
+            </values>
+            </valueSetDefinition>
+        </valueSet>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
-    <fields>
+ <fields>
         <fullName>Status__c</fullName>
         <externalId>false</externalId>
         <inlineHelpText>Scheduled implies work has not started yet.</inlineHelpText>
         <label>Status</label>
-        <picklist>
-            <picklistValues>
+        <valueSet>
+            <controllingField>false</controllingField>
+            <restricted>false</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+               <value>
                 <fullName>Complete</fullName>
                 <default>true</default>
-            </picklistValues>
-            <picklistValues>
+            </value>
+            <value>
                 <fullName>Scheduled</fullName>
                 <default>false</default>
-            </picklistValues>
+            </value>
             <sorted>false</sorted>
         </picklist>
+        <trackTrending>false</trackTrending>
+                <!-- ... other picklist values ... -->
+            </valueSetDefinition>
+        </valueSet>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
@@ -432,4 +444,5 @@ MOD( DATE(YEAR(Date_of_Work__c), 1, 1) - DATE (1900, 1, 7), 7),
         <errorDisplayField>Description__c</errorDisplayField>
         <errorMessage>You must enter a description</errorMessage>
     </validationRules>
+
 </CustomObject>
