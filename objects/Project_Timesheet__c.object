@@ -265,7 +265,7 @@
         <valueSet>
             <controllingField>false</controllingField>
             <restricted>false</restricted>
-            <valueSetDefinition>
+            <ValueSetValuesDefinition >
                 <sorted>false</sorted>
                 <value>
                      <fullName>Kick-Off</fullName>
@@ -299,7 +299,7 @@
                 <fullName>Project Mangement</fullName>
                 <default>false</default>
             </values>
-            </valueSetDefinition>
+            </ValueSetValuesDefinition >
         </valueSet>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
@@ -312,7 +312,7 @@
         <valueSet>
             <controllingField>false</controllingField>
             <restricted>false</restricted>
-            <valueSetDefinition>
+            <ValueSetValuesDefinition >
                 <sorted>false</sorted>
                <value>
                 <fullName>Complete</fullName>
@@ -326,7 +326,7 @@
         </picklist>
         <trackTrending>false</trackTrending>
                 <!-- ... other picklist values ... -->
-            </valueSetDefinition>
+            </ValueSetValuesDefinition >
         </valueSet>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
